@@ -1,0 +1,93 @@
+:root{
+    font-size: x-large;
+}
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(215, 203, 226);
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+    padding: 40px;
+}
+.container{
+    width: max-content;
+    margin: 0 auto;
+}
+.logo{
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;border: 3px;
+    color:aqua;
+font-size: x-large;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 2px;
+transition: all 0.2s;
+}
+.logo :hover{
+
+background: -moz-linear-gradient();
+color: blue;
+}
+nav{
+    display: flex;
+}
+nav{
+    display: inline-block;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    transition: all 300ms ease-in-out;
+    margin-right: 10px;
+
+}
+nav a:hover{
+    color: var(:hover);
+}
+.intro{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.intro-title{
+color: var(--main);
+font-size: 1rem;
+text-transform: uppercase;
+font-weight: bold;
+margin-top: 10vmin;
+}
+.intro-title p{
+    font-size: 10rem;
+
+}
+
+.btn{
+display: inline-block;
+padding: 10px 20px;
+text-align: center;
+border: 1px solid;
+cursor: pointer;
+transition: all 300ms ease-in-out;
+}
+.btn:hover{
+    background-color: #000;
+    color: var(--bg);
+}
